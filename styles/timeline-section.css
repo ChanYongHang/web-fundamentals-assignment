@@ -1,0 +1,96 @@
+.current-playing-img{
+    width: 45px;
+    border-radius: 5px;
+}
+
+.current-playing-title{
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.current-playing-artist, .timeline-time{
+    color: #ccd0cf;
+    font-size: 11px;
+}
+
+.current-playing-heart{
+    width: 20px;
+}
+
+.current-playing-box{
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    width: 212px;
+}
+
+.current-playing-details{
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.timeline-selection-buttons{
+    width: 16px;
+    margin-right: 15px; 
+}
+
+.timeline-play-button{
+    width: 35px;
+    margin-right: 15px;
+}
+
+.timeline-music-selection-box{
+    display: flex;
+    align-items: center;
+}
+
+.volume-bar{
+  width: 100px; 
+}
+
+.timeline-volume-box{
+    display: flex;
+    align-items: center;
+}
+
+.timeline-selection-box{
+    display: grid;
+    grid-template-columns: 1fr 162px;
+    flex-grow: 1;
+    align-content: end;
+
+}
+
+.timeline-music-selection-box{
+    justify-self: center;
+}
+
+.timeline-volume-box{
+    justify-self: right;
+}
+
+.timeline-box{
+    display: flex;
+    margin-top: 10px;
+}
+
+.timeline-timebar-box{
+    display: flex;
+}
+
+.timeline-timebar-img{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+    height: 10px;
+}
+
+.timeline-right-section-box{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    flex-grow: 1;
+    margin-left: 30px;
+    margin-right: 10px;
+}

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library section testing</title>
+
+    <link rel="stylesheet" href="styles/library-section.css">
+    <link rel="stylesheet" href="styles/header-section.css">
+    <link rel="stylesheet" href="styles/timeline-section.css">
+
+    <style>
+        body{
+            background-color: #0e1111;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p{
+            margin: 0;
+        }
+
+        .middle-box{
+            display: grid;
+            grid-template-columns: 236px 1fr;
+            column-gap: 10px;
+        }
+
+        .content-part{
+            background-color: #232b2b;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header-box">
+        <div class="header-logo-section">
+            <img class="header-logo" src="resources/general-icons/logo.png" alt="">
+            <p class="header-logo-name">Lumsjm</p>
+        </div>
+    
+        <div class="header-search-bar-section">
+            <div class="header-search-bar-container">
+                <img class="header-search-icon" src="resources/general-icons/search.png" alt="">
+                <p class="header-search-displayed-words" >What's poppin?</p>
+            </div>
+            <div>
+                <img class="header-search-bar-idea-icon" src="resources/general-icons/idea.png" alt="">
+            </div>
+        </div>
+    
+        <div class="header-user-section">
+            <p class="header-username">Username</p>
+            <img class="header-user-profile-logo" src="resources/general-icons/profile-user.png" alt="">
+        </div>
+    </div>
+
+    <div class="middle-box">
+        <div class="library-box">
+            <div class="library-title-box">
+                <p class="library-title">Your Library</p>
+                <img class="library-title-add-icon" src="resources/general-icons/add.png" alt="">
+            </div>
+        
+            <hr>
+        
+            <div class="library-sort-search-box">
+                <p class="library-sort">sort by.</p>
+                <img class="library-search-icon" src="resources/general-icons/search.png" alt="">
+            </div>
+        
+            <div class="library-items-box">
+                <div class="library-playlist-display-box">
+                    <div>
+                        <img class="library-playlist-image" src="resources/library-image-display/r&b-playlist-image.png" alt="">
+                    </div>
+                    <div class="library-playlist-info-box">
+                        <p class="library-playlist-name">r&b</p>
+                        <p class="library-playlist-info">Playlsit | 20 songs</p>
+                    </div>
+                </div>
+            
+                <div class="library-playlist-display-box">
+                    <div>
+                        <img class="library-playlist-image" src="resources/library-image-display/moodyy-playlist-image.png" alt="">
+                    </div>
+                    <div class="library-playlist-info-box">
+                        <p class="library-playlist-name">moodyyy</p>
+                        <p class="library-playlist-info">Playlsit | 15 songs</p>
+                    </div>
+                </div>
+            
+                <div class="library-playlist-display-box">
+                    <div>
+                        <img class="library-playlist-image" src="resources/library-image-display/indie-pop-playlist-image.png" alt="">
+                    </div>
+                    <div class="library-playlist-info-box">
+                        <p class="library-playlist-name">indie pop</p>
+                        <p class="library-playlist-info">Playlsit | 25 songs</p>
+                    </div>
+                </div>
+            
+                <div class="library-playlist-display-box">
+                    <div>
+                        <img class="library-playlist-image" src="resources/library-image-display/requiem-album-image.png" alt="">
+                    </div>
+                    <div class="library-playlist-info-box">
+                        <p class="library-playlist-name">Requiem</p>
+                        <p class="library-playlist-info">Album | 13 songs</p>
+                    </div>
+                </div>
+            
+                <div class="library-playlist-display-box">
+                    <div>
+                        <img class="library-playlist-image library-artist-profile-image" src="resources/library-image-display//d4vd-profile.jpeg" alt="">
+                    </div>
+                    <div class="library-playlist-info-box">
+                        <p class="library-playlist-name">d4vd</p>
+                        <p class="library-playlist-info">Artist</p>
+                    </div>
+                </div>
+            
+                <div class="library-playlist-display-box">
+                    <div>
+                        <img class="library-playlist-image" src="resources/library-image-display/retro-playlist-image.png" alt="">
+                    </div>
+                    <div class="library-playlist-info-box">
+                        <p class="library-playlist-name">retro</p>
+                        <p class="library-playlist-info">Playlsit | 28 songs</p>
+                    </div>
+                </div>
+            
+                <div class="library-playlist-display-box">
+                    <div>
+                        <img class="library-playlist-image" src="resources/library-image-display/SOS-album-image.png" alt="">
+                    </div>
+                    <div class="library-playlist-info-box">
+                        <p class="library-playlist-name">SOS</p>
+                        <p class="library-playlist-info">Album | 23 songs</p>
+                    </div>
+                </div>
+        
+                <div class="library-playlist-display-box">
+                    <div>
+                        <img class="library-playlist-image library-artist-profile-image" src="resources/library-image-display/xg-profile.jpeg" alt="">
+                    </div>
+                    <div class="library-playlist-info-box">
+                        <p class="library-playlist-name">XG</p>
+                        <p class="library-playlist-info">Artist</p>
+                    </div>
+                </div>
+        
+                <div class="library-playlist-display-box">
+                    <div>
+                        <img class="library-playlist-image library-artist-profile-image" src="resources/library-image-display/raveena-profile.jpeg" alt="">
+                    </div>
+                    <div class="library-playlist-info-box">
+                        <p class="library-playlist-name">Raveena</p>
+                        <p class="library-playlist-info">Artist</p>
+                    </div>
+                </div>
+        
+                <div class="library-playlist-display-box">
+                    <div>
+                        <img class="library-playlist-image library-artist-profile-image" src="resources/library-image-display/clairo-profile.jpeg" alt="">
+                    </div>
+                    <div class="library-playlist-info-box">
+                        <p class="library-playlist-name">SOS</p>
+                        <p class="library-playlist-info">Artist</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="current-enlarged-playing-song-box">
+                <img class="current-enlarged-playing-song-image" src="resources/library-image-display/indie-pop-playlist-image.png" alt="">
+            </div>
+        </div>
+        <div class="content-part">
+            
+        </div>
+    </div>
+
+    <div class="timeline-box">
+        <div class="current-playing-box">
+            <div><img class="current-playing-img" src="resources/timeline-box/current-playing-music-box/wave-song-image.jpeg" alt="">
+            </div>
+            <div class="current-playing-details">
+                <p class="current-playing-title">wave</p>
+                <p class="current-playing-artist">wave to earth</p>
+            </div>
+            <div>
+                <img class="current-playing-heart" src="resources/timeline-box/current-playing-music-box/heart.png" alt="">
+            </div>
+        </div>
+
+        <div class="timeline-right-section-box">
+            <div class="timeline-timebar-box">
+                <p class="timeline-time">4:10</p>
+                <img class="timeline-timebar-img" src="resources/timeline-box/selections/music-timeline.png" alt="">
+                <p class="timeline-time">4:30</p>
+            </div>
+
+            <div class="timeline-selection-box">
+                <div class="timeline-music-selection-box">
+                    <img class="timeline-selection-buttons" src="resources/timeline-box/selections/shuffle.png" alt="">
+                    <img style="transform: rotate(180deg);" class="timeline-selection-buttons" src="resources/timeline-box/selections/next-button.png" alt="">
+                    <img class="timeline-play-button" src="resources/timeline-box/selections/play-button.png" alt="">
+                    <img class="timeline-selection-buttons" src="resources/timeline-box/selections/next-button.png" alt="">
+                    <img class="timeline-selection-buttons" src="resources/timeline-box/selections/repeat-once.png" alt="">
+                </div>
+        
+                <div class="timeline-volume-box">
+                    <img class="timeline-selection-buttons" src="resources/timeline-box/selections/list.png" alt="">
+                    <img class="timeline-selection-buttons" src="resources/timeline-box/selections/volume-up.png" alt="">
+                    <img class="volume-bar" src="resources/timeline-box/selections/volume-bar.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
