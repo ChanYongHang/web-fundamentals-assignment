@@ -1,0 +1,11 @@
+.content-part{
+    background-color: #232b2b;
+    border-radius: 8px;
+    position: fixed;
+    left: 242px;
+    right: 10px;
+    top: 63px;
+    bottom: 84px;
+    overflow: scroll;
+    overflow-x: hidden;
+}

@@ -59,7 +59,7 @@
     display: grid;
     grid-template-columns: 1fr 162px;
     flex-grow: 1;
-    align-content: end;
+    align-content: center;
 
 }
 

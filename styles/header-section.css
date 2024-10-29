@@ -67,11 +67,14 @@
     right: 5px;
     left: 0;
     height: 63px;
-    padding-top: 3px;
     background-color: #0e1111;
     
 }
 
 .header-logo-section{
     margin-left: 8px;
+}
+
+.header-user-section{
+    margin-right: 8px;
 }
