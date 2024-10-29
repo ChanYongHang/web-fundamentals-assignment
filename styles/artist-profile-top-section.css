@@ -1,0 +1,90 @@
+.artist-profile-top-image{
+    object-fit: cover;
+    width: 100%;
+    height: 380px;
+    border-radius: 8px;
+}
+
+.artist-profile-top-box{
+    position: relative;
+    /*
+    background-image: url(resources/resized-song-image-225-225/wte-profile.jpg);
+    width: 100%;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    */
+}
+
+.artist-profile-top-name{
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.artist-profile-top-listeners{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.artist-profile-top-description{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #414a4c;
+}
+
+.artist-profile-top-play-button{
+    background-color: #3b444b;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.artist-profile-top-play-icon{
+    width: 32px;
+    vertical-align: middle;
+}
+
+.artist-profile-top-play-word{
+    display: inline;
+    color: white;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.artist-profile-top-heart-icon{
+    width: 20px;
+}
+
+.artist-profile-top-expand-button{
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+    text-decoration: underline;
+    padding: 0;
+    margin-bottom: 30px;
+    color: #414a4c;
+    cursor: pointer;
+}
+
+.artist-profile-top-heart-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.artist-profile-top-buttons-box{
+    display: flex;
+    align-items: center;
+}
+
+.artist-profile-top-details-box{
+    position: absolute;
+    right: 150px;
+    bottom: 90px;
+    width: 295px;
+}
+
+.artist-profile-top-play-button-box{
+    flex-grow: 1;
+}
