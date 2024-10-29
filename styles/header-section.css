@@ -59,13 +59,16 @@
 }
 .header-box{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
-    top: 10px;
+    top: 0;
     right: 5px;
     left: 0;
-    height: 46px;
+    height: 55px;
+    padding-top: 7px;
+    background-color: #0e1111;
+    
 }
 
 .header-logo-section{
