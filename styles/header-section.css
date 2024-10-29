@@ -48,14 +48,16 @@
 .header-username{
     color: #ccd0cf;
     font-size: 14px;
-    display: inline;
     margin-right: 6px;
     font-weight: bold;
 }
 
 .header-user-profile-logo{
     width: 40px;
-    vertical-align: middle;
+}
+
+.header-user-profile-bpx{
+    position: relative;
 }
 
 .header-box{
@@ -77,4 +79,13 @@
 
 .header-user-section{
     margin-right: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.header-user-profile-online{
+    width: 38px;
+    position: absolute;
+    bottom: 0;
+    right: -5px;
 }
