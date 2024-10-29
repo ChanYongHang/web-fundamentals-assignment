@@ -27,8 +27,7 @@
 }
 
 .library-items-box{
-    height: 365px;
-    width: 200px;
+    /* height: 365px; */
     overflow: scroll;
 }
 
@@ -68,14 +67,18 @@ hr{
     border: 1px solid #ccd0cf;
 }
 
-.library-box{
-    height: 660px;
+.library-box{ 
     width: 212px;
     background-color: #232b2b;
     padding: 12px 12px 15px 12px;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 63px;
+    bottom: 84px;
+    width: 200px;
 }
 
 .library-playlist-image{
