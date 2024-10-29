@@ -13,6 +13,8 @@
         body{
             background-color: #0e1111;
             font-family: Arial, Helvetica, sans-serif;
+            height: 3000px; /*remove this*/
+            padding-top: 48px; /*to move the content down without clashing with the headers*/
         }
         p{
             margin: 0;
@@ -27,6 +29,13 @@
         .content-part{
             background-color: #232b2b;
             border-radius: 8px;
+        }
+
+        .content-box{
+            display: grid;
+            grid-template-columns: 236px 1fr;
+            column-gap: 8px;
+            row-gap: 8px;
         }
     </style>
 </head>
@@ -55,6 +64,15 @@
     </div>
 
     <div class="middle-box">
+
+    </div>
+
+    <div class="timeline-box">
+
+    </div>
+
+    <div class="content-box">
+
         <div class="library-box">
             <div class="library-title-box">
                 <p class="library-title">Your Library</p>
@@ -174,12 +192,9 @@
                 <img class="current-enlarged-playing-song-image" src="resources/library-image-display/indie-pop-playlist-image.png" alt="">
             </div>
         </div>
-        <div class="content-part">
-            
-        </div>
-    </div>
 
-    <div class="timeline-box">
+        <div class="content-part"></div>
+
         <div class="current-playing-box">
             <div><img class="current-playing-img" src="resources/timeline-box/current-playing-music-box/wave-song-image.jpeg" alt="">
             </div>
