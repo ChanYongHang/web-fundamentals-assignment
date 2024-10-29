@@ -9,18 +9,68 @@
     <link rel="stylesheet" href="styles/header-section.css">
     <link rel="stylesheet" href="styles/timeline-section.css">
     <link rel="stylesheet" href="styles/content-section.css">
+    <link rel="stylesheet" href="styles/general.css">
 
     <style>
-        body{
-            background-color: #0e1111;
-            font-family: Arial, Helvetica, sans-serif;
-            padding-top: 63px; /*to move the content down without clashing with the headers*/
+        .artist-profile-top-image{
+            object-fit: cover;
+            width: 100%;
+            height: 380px;
         }
-        p{
-            margin: 0;
+
+        .artist-profile-top-box{
+            
         }
-        
+
+        .artist-profile-top-name{
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .artist-profile-top-listeners{
+            font-size: 12px;
+        }
+
+        .artist-profile-top-description{
+            font-size: 10px;
+        }
+
+        .artist-profile-top-play-button{
+            background-color: #3b444b;
+            border: none;
+            padding: 8px;
+            border-radius: 5px;
+        }
+
+        .artist-profile-top-play-icon{
+            width: 28px;
+            vertical-align: middle;
+        }
+
+        .artist-profile-top-play-word{
+            display: inline;
+            color: white;
+            font-size: 11px;
+            margin-right: 5px;
+        }
+
+        .artist-profile-top-heart-icon{
+            width: 20px;
+        }
+
+        .artist-profile-top-expand-button{
+            background-color: transparent;
+            border: none;
+            font-size: 10px;
+            text-decoration: underline;
+        }
+
+        .artist-profile-top-heart-button{
+            background-color: transparent;
+            border: none;
+        }
     </style>
+
 </head>
 
 <body>
@@ -166,7 +216,26 @@
         </div>
     </div>
 
-    <div class="content-part"></div>
+    <div class="content-part">
+        <div class="artist-profile-top-box">
+            <img class="artist-profile-top-image" src="resources/resized-song-image-225-225/wte-profile.jpg" alt="">
+            <div class="artist-profile-top-details">
+                <p class="artist-profile-top-name">wave to earth</p>
+                <p class="artist-profile-top-listeners">8,356,375 monthly listeners</p>
+                <p class="artist-profile-top-description">Based in Seoul, South Korea, 'Wave to Earth' is a three-member band...</p>
+                <button class="artist-profile-top-expand-button">more.</button>
+                <button class="artist-profile-top-play-button">
+                    <p class="artist-profile-top-play-word">Play Now</p>
+                    <img class="artist-profile-top-play-icon" src="resources/timeline-box/selections/play-button.png" alt="">
+                </button>
+                <button class="artist-profile-top-heart-button">
+                    <img class="artist-profile-top-heart-icon" src="resources/timeline-box/current-playing-music-box/heart.png" alt="">
+                </button>
+                
+            </div>
+        </div>
+        
+    </div>
 
     <div class="timeline-box">
         <div class="current-playing-box">
