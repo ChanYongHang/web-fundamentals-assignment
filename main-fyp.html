@@ -14,12 +14,15 @@
 
     <style>
 
-        .artist-profile-top-releases-title{
+        .artist-profile-top-releases-title, .artist-profile-alike-artist-title, .artist-profile-discography-title{
             color: white;
             font-size: 26px;
             font-weight: bold;
             text-decoration: underline;
-            margin-bottom: 25px;
+        }
+
+        .artist-profile-top-releases-title{
+            margin-bottom: 30px;
         }
 
         .artist-profile-top-releases-song-img{
@@ -67,12 +70,79 @@
         }
 
         .artist-profile-top-releases-box{
-            margin-left: 35px;
-            margin-top: 30px;
+            margin-left: 45px;
+            margin-top: 35px;
         }
 
         .artist-profile-top-releases-songs-box{
             margin-left: 28px;
+        }
+
+        .artist-profile-discography-album-img{
+            width: 120px;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+
+        .artist-profile-discography-album-name{
+            color: white;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .artist-profile-discography-album-details{
+            color: #ccd0cf;
+            font-size: 12px;
+        }
+
+        .artist-profile-discography-album-display-box{
+            display: flex;
+            width: 300px;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .artist-profile-discography-box{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-top: 80px;
+            margin-left: 45px;
+            width: 1600px;
+        }
+
+        .artist-profile-discography-title{
+            margin-bottom: 20px;
+        }
+
+        .artist-profile-alike-artist-img{
+            width: 150px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .artist-profile-alike-artist-name{
+            color: #ccd0cf;
+            font-size: 14px;
+        }
+
+        .artist-profile-alike-artist-display-box{
+            display: flex;
+            flex-direction: column;
+            width: 1600px;
+        }
+
+        .artist-profile-alike-artist-flexbox{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .artist-profile-alike-artist-title{
+            margin-bottom: 28px;
+        }
+
+        .artist-profile-alike-artist-box{
+            margin-top: 80px;
+            margin-left: 45px;
         }
 
     </style>
@@ -303,20 +373,145 @@
         </div>
 
         <div class="artist-profile-discography-box">
+
             <div class="artist-profile-discography-album-box">
-                <div class="artist-profile-discography-songs-display-box">
-                    <img src="" alt="">
+                <p class="artist-profile-discography-title">Albums</p>
+                <div class="artist-profile-discography-album-display-box">
+                    <img class="artist-profile-discography-album-img" src="resources/artist-page-discography/play-with-earth-album.png" alt="">
+                    <div class="artist-profile-discography-album-details-box">
+                        <p class="artist-profile-discography-album-name">play with earth! 0.03 (extended)</p>
+                        <p class="artist-profile-discography-album-details">Latest Releases | Album</p>
+                    </div>
+                </div>
+
+                <div class="artist-profile-discography-album-display-box">
+                    <img class="artist-profile-discography-album-img" src="resources/artist-page-discography/bad-wte.jpeg" alt="">
+                    <div class="artist-profile-discography-album-details-box">
+                        <p class="artist-profile-discography-album-name">0.1 flaws and all.</p>
+                        <p class="artist-profile-discography-album-details">2023 | Album</p>
+                    </div>
+                </div>
+
+                <div class="artist-profile-discography-album-display-box">
+                    <img class="artist-profile-discography-album-img" src="resources/artist-page-discography/seasons-wte.jpeg" alt="">
+                    <div class="artist-profile-discography-album-details-box">
+                        <p class="artist-profile-discography-album-name">summer flows 0.02</p>
+                        <p class="artist-profile-discography-album-details">2020 | EP</p>
+                    </div>
+                </div>
+
+                <button class="artist-profile-top-releases-expand-button">
+                    more.
+                </button>
+            </div>
+
+            <div class="artist-profile-discography-album-box">
+                <p class="artist-profile-discography-title">All Time Favourite</p>
+                <div class="artist-profile-discography-album-display-box">
+                    <img class="artist-profile-discography-album-img" src="resources/artist-page-discography/bad-wte.jpeg" alt="">
+                    <div class="artist-profile-discography-album-details-box">
+                        <p class="artist-profile-discography-album-name">bad</p>
+                        <p class="artist-profile-discography-album-details">2023</p>
+                    </div>
+                </div>
+
+                <div class="artist-profile-discography-album-display-box">
+                    <img class="artist-profile-discography-album-img" src="resources/artist-page-discography/light-wte.jpeg" alt="">
+                    <div class="artist-profile-discography-album-details-box">
+                        <p class="artist-profile-discography-album-name">light</p>
+                        <p class="artist-profile-discography-album-details">2020</p>
+                    </div>
+                </div>
+
+                <div class="artist-profile-discography-album-display-box">
+                    <img class="artist-profile-discography-album-img" src="resources/artist-page-discography/bonfire.png" alt="">
+                    <div class="artist-profile-discography-album-details-box">
+                        <p class="artist-profile-discography-album-name">bonfire</p>
+                        <p class="artist-profile-discography-album-details">2020</p>
+                    </div>
+                </div>
+
+                <button class="artist-profile-top-releases-expand-button">
+                    more.
+                </button>
+            </div>
+
+            <div class="artist-profile-discography-album-box">
+                <p class="artist-profile-discography-title">Collaborations</p>
+                <div class="artist-profile-discography-album-display-box">
+                    <img class="artist-profile-discography-album-img" src="resources/artist-page-discography/summer-night-collab.jpeg" alt="">
+                    <div class="artist-profile-discography-album-details-box">
+                        <p class="artist-profile-discography-album-name">summer,night</p>
+                        <p class="artist-profile-discography-album-details">Joen Jin Hee, wave to earth</p>
+                    </div>
+                </div>
+
+                <div class="artist-profile-discography-album-display-box">
+                    <img class="artist-profile-discography-album-img" src="resources/artist-page-discography/black-mountain-collab.jpeg" alt="">
+                    <div class="artist-profile-discography-album-details-box">
+                        <p class="artist-profile-discography-album-name">black mountain</p>
+                        <p class="artist-profile-discography-album-details">PEPERTONES, wave to earth</p>
+                    </div>
+                </div>
+
+                <div class="artist-profile-discography-album-display-box">
+                    <img class="artist-profile-discography-album-img" src="resources/artist-page-discography/to-us-collab.jpeg" alt="">
+                    <div class="artist-profile-discography-album-details-box">
+                        <p class="artist-profile-discography-album-name">to us</p>
+                        <p class="artist-profile-discography-album-details">APRO, WAVY, wave to earth</p>
+                    </div>
+                </div>
+
+                <button class="artist-profile-top-releases-expand-button">
+                    more.
+                </button>
+            </div>  
+        </div>
+
+        <div class="artist-profile-alike-artist-box">
+            <p class="artist-profile-alike-artist-title">Artist like wave to earth</p>
+            <div class="artist-profile-alike-artist-flexbox">
+                <div class="artist-profile-alike-artist-display-box">
+                    <img class="artist-profile-alike-artist-img" src="resources/artist-page-artists-alike/raveena-profile.jpeg" alt="">
+                    <p class="artist-profile-alike-artist-name">Raveena</p>
+                </div>
+    
+                <div class="artist-profile-alike-artist-display-box">
+                    <img class="artist-profile-alike-artist-img" src="resources/artist-page-artists-alike/dvwm-profile.jpeg" alt="">
+                    <p class="artist-profile-alike-artist-name">dvwm</p>
+                </div>
+    
+                <div class="artist-profile-alike-artist-display-box">
+                    <img class="artist-profile-alike-artist-img" src="resources/artist-page-artists-alike/caseopea-profile.jpeg" alt="">
+                    <p class="artist-profile-alike-artist-name">Casiopea</p>
+                </div>
+    
+                <div class="artist-profile-alike-artist-display-box">
+                    <img class="artist-profile-alike-artist-img" src="resources/artist-page-artists-alike/stan-getz-profile.jpeg" alt="">
+                    <p class="artist-profile-alike-artist-name">Stan Getz</p>
+                </div>
+    
+                <div class="artist-profile-alike-artist-display-box">
+                    <img class="artist-profile-alike-artist-img" src="resources/artist-page-artists-alike/clairo-profile.jpeg" alt="">
+                    <p class="artist-profile-alike-artist-name">Clairo</p>
+                </div>
+    
+                <div class="artist-profile-alike-artist-display-box">
+                    <img class="artist-profile-alike-artist-img" src="resources/artist-page-artists-alike/xg-profile.jpeg" alt="">
+                    <p class="artist-profile-alike-artist-name">XG</p>
+                </div>
+    
+                <div class="artist-profile-alike-artist-display-box">
+                    <img class="artist-profile-alike-artist-img" src="resources/artist-page-artists-alike/laufey-profile.jpeg" alt="">
+                    <p class="artist-profile-alike-artist-name">Laufey</p>
                 </div>
             </div>
-
-            <div class="artist-profile-discography-alltimefavourite-box">
-                
-            </div>
-
-            <div class="artist-profile-discography-collaborations-box">
-                
-            </div>
+            
         </div>
+    </div>
+
+    <div class="footer-box">
+
     </div>
 
     <div class="timeline-box">
