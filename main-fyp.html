@@ -13,8 +13,68 @@
     <link rel="stylesheet" href="styles/artist-profile-top-section.css">
 
     <style>
+
+        .artist-profile-top-releases-title{
+            color: white;
+            font-size: 26px;
+            font-weight: bold;
+            text-decoration: underline;
+            margin-bottom: 25px;
+        }
+
+        .artist-profile-top-releases-song-img{
+            width: 45px;
+            border-radius: 3px;
+        }
         
-        
+        .artist-profile-top-releases-song-name{
+            color: white;
+            font-size: 14px;
+            display: inline;
+        }
+
+        .artist-profile-top-releases-song-listeners, .artist-profile-top-releases-song-duration{
+            color: #ccd0cf;
+            font-size: 12px;
+            display: inline;
+        }
+
+        .artist-profile-top-releases-song-more-icon{
+            width: 16px;
+        }
+
+        .artist-profile-top-releases-song-more-button{
+            background-color: transparent;
+            border: none;
+            padding: 0;
+        }
+
+        .artist-profile-top-releases-songs-details-box{
+            display: grid;
+            grid-template-columns: 40px 1fr 1fr 50px 30px;
+            width: 600px;
+            align-items: center;
+            column-gap: 15px;
+            row-gap: 20px;
+        }
+
+        .artist-profile-top-releases-expand-button{
+            background-color: transparent;
+            border: none;
+            color: #ccd0cf;
+            text-decoration: underline;
+            padding: 0;
+        }
+
+        .artist-profile-top-releases-box{
+            margin-left: 35px;
+            margin-top: 30px;
+        }
+
+        .artist-profile-top-releases-songs-box{
+            margin-left: 28px;
+        }
+
     </style>
 
 </head>
@@ -191,6 +251,72 @@
             </div>
         </div>
         
+        <div class="artist-profile-top-releases-box">
+            <p class="artist-profile-top-releases-title">Top Releases</p>
+            <div class="artist-profile-top-releases-songs-box">
+                <div class="artist-profile-top-releases-songs-details-box">
+                    <img class="artist-profile-top-releases-song-img" src="resources/artist-page-top-releases/seasons-wte.jpeg" alt="">
+                    <p class="artist-profile-top-releases-song-name">seasons</p>
+                    <p class="artist-profile-top-releases-song-listeners">299,211,694</p>
+                    <p class="artist-profile-top-releases-song-duration">4:15</p>
+                    <button class="artist-profile-top-releases-song-more-button">
+                        <img class="artist-profile-top-releases-song-more-icon" src="resources/general-icons/more.png" alt="">
+                    </button>
+
+                    <img class="artist-profile-top-releases-song-img" src="resources/artist-page-top-releases/bad-wte.jpeg" alt="">
+                    <p class="artist-profile-top-releases-song-name">bad</p>
+                    <p class="artist-profile-top-releases-song-listeners">113,321,789</p>
+                    <p class="artist-profile-top-releases-song-duration">5:07</p>
+                    <button class="artist-profile-top-releases-song-more-button">
+                        <img class="artist-profile-top-releases-song-more-icon" src="resources/general-icons/more.png" alt="">
+                    </button>
+
+                    <img class="artist-profile-top-releases-song-img" src="resources/artist-page-top-releases/light-wte.jpeg" alt="">
+                    <p class="artist-profile-top-releases-song-name">light</p>
+                    <p class="artist-profile-top-releases-song-listeners">94,427,256</p>
+                    <p class="artist-profile-top-releases-song-duration">3:45</p>
+                    <button class="artist-profile-top-releases-song-more-button">
+                        <img class="artist-profile-top-releases-song-more-icon" src="resources/general-icons/more.png" alt="">
+                    </button>
+
+                    <img class="artist-profile-top-releases-song-img" src="resources/artist-page-top-releases/wave-wte.jpeg" alt="">
+                    <p class="artist-profile-top-releases-song-name">wave</p>
+                    <p class="artist-profile-top-releases-song-listeners">27,546,700</p>
+                    <p class="artist-profile-top-releases-song-duration">4:30</p>
+                    <button class="artist-profile-top-releases-song-more-button">
+                        <img class="artist-profile-top-releases-song-more-icon" src="resources/general-icons/more.png" alt="">
+                    </button>
+
+                    <img class="artist-profile-top-releases-song-img" src="resources/artist-page-top-releases/annie-wte.jpeg" alt="">
+                    <p class="artist-profile-top-releases-song-name">annie.</p>
+                    <p class="artist-profile-top-releases-song-listeners">11,087,146</p>
+                    <p class="artist-profile-top-releases-song-duration">3:20</p>
+                    <button class="artist-profile-top-releases-song-more-button">
+                        <img class="artist-profile-top-releases-song-more-icon" src="resources/general-icons/more.png" alt="">
+                    </button>
+
+                    <button class="artist-profile-top-releases-expand-button">
+                        more.
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="artist-profile-discography-box">
+            <div class="artist-profile-discography-album-box">
+                <div class="artist-profile-discography-songs-display-box">
+                    <img src="" alt="">
+                </div>
+            </div>
+
+            <div class="artist-profile-discography-alltimefavourite-box">
+                
+            </div>
+
+            <div class="artist-profile-discography-collaborations-box">
+                
+            </div>
+        </div>
     </div>
 
     <div class="timeline-box">
