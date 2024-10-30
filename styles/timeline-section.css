@@ -1,12 +1,14 @@
 .current-playing-img{
-    width: 45px;
+    width: 52px;
     border-radius: 5px;
+    margin-left: 12px;
 }
 
 .current-playing-title{
     color: white;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 13px;
+    margin-bottom: 3px;
 }
 
 .current-playing-artist, .timeline-time{
@@ -23,12 +25,12 @@
     align-items: center;
     padding-left: 12px;
     padding-right: 5px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .current-playing-details{
     flex-grow: 1;
-    margin-left: 10px;
+    margin-left: 18px;
 }
 
 .timeline-selection-buttons{
