@@ -1,0 +1,133 @@
+.artist-profile-top-releases-title,
+.artist-profile-alike-artist-title,
+.artist-profile-discography-title {
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.artist-profile-top-releases-title {
+  margin-bottom: 30px;
+}
+
+.artist-profile-top-releases-song-img {
+  width: 45px;
+  border-radius: 3px;
+}
+
+.artist-profile-top-releases-song-name {
+  color: white;
+  font-size: 14px;
+  display: inline;
+}
+
+.artist-profile-top-releases-song-listeners,
+.artist-profile-top-releases-song-duration {
+  color: #ccd0cf;
+  font-size: 12px;
+  display: inline;
+}
+
+.artist-profile-top-releases-song-more-icon {
+  width: 16px;
+}
+
+.artist-profile-top-releases-song-more-button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.artist-profile-top-releases-songs-details-box {
+  display: grid;
+  grid-template-columns: 40px 1fr 1fr 50px 30px;
+  width: 600px;
+  align-items: center;
+  column-gap: 15px;
+  row-gap: 20px;
+}
+
+.artist-profile-top-releases-expand-button {
+  background-color: transparent;
+  border: none;
+  color: #ccd0cf;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.artist-profile-top-releases-box {
+  margin-left: 45px;
+  margin-top: 35px;
+}
+
+.artist-profile-top-releases-songs-box {
+  margin-left: 28px;
+}
+
+.artist-profile-discography-album-img {
+  width: 120px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.artist-profile-discography-album-name {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.artist-profile-discography-album-details {
+  color: #ccd0cf;
+  font-size: 12px;
+}
+
+.artist-profile-discography-album-display-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.artist-profile-discography-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 80px;
+  margin-left: 45px;
+  margin-right: 20px;
+}
+
+.artist-profile-discography-title {
+  margin-bottom: 20px;
+}
+
+.artist-profile-alike-artist-img {
+  width: 150px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.artist-profile-alike-artist-name {
+  color: #ccd0cf;
+  font-size: 14px;
+  align-self: center;
+}
+
+.artist-profile-alike-artist-display-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.artist-profile-alike-artist-flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.artist-profile-alike-artist-title {
+  margin-bottom: 28px;
+}
+
+.artist-profile-alike-artist-box {
+  margin-top: 80px;
+  margin-left: 45px;
+  margin-right: 45px;
+}
