@@ -3,6 +3,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 63px; /*to move the content down without clashing with the headers*/
 }
+
 p{
     margin: 0;
 }

@@ -1,6 +1,4 @@
-.artist-profile-top-releases-title,
-.artist-profile-alike-artist-title,
-.artist-profile-discography-title {
+.artist-profile-title{
   color: white;
   font-size: 26px;
   font-weight: bold;
@@ -12,21 +10,21 @@
 }
 
 .artist-profile-top-releases-song-img {
-  width: 45px;
+  width: 55px;
   border-radius: 3px;
 }
 
 .artist-profile-top-releases-song-name {
   color: white;
   font-size: 14px;
-  display: inline;
+  
 }
 
 .artist-profile-top-releases-song-listeners,
 .artist-profile-top-releases-song-duration {
   color: #ccd0cf;
-  font-size: 12px;
-  display: inline;
+  font-size: 14px;
+  
 }
 
 .artist-profile-top-releases-song-more-icon {
@@ -44,8 +42,9 @@
   grid-template-columns: 40px 1fr 1fr 50px 30px;
   width: 600px;
   align-items: center;
-  column-gap: 15px;
+  column-gap: 35px;
   row-gap: 20px;
+  margin-top: 20px;
 }
 
 .artist-profile-top-releases-expand-button {
@@ -58,17 +57,28 @@
 
 .artist-profile-top-releases-box {
   margin-left: 45px;
-  margin-top: 35px;
+  flex: 1;
 }
 
 .artist-profile-top-releases-songs-box {
   margin-left: 28px;
 }
 
+.artist-profile-discography-album-box{
+  position: relative;
+}
+
 .artist-profile-discography-album-img {
   width: 120px;
-  margin-right: 20px;
   border-radius: 8px;
+}
+
+.artist-profile-discography-album-vinyl-img{
+  width: 120px;
+  position: absolute;
+  left: 60px;
+  transform: rotate(35deg);
+  z-index: -1;
 }
 
 .artist-profile-discography-album-name {
@@ -82,10 +92,14 @@
   font-size: 12px;
 }
 
+.artist-profile-discography-album-details-box{
+  margin-left: 80px;
+}
+
 .artist-profile-discography-album-display-box {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .artist-profile-discography-box {
@@ -97,6 +111,10 @@
 }
 
 .artist-profile-discography-title {
+  margin-bottom: 20px;
+}
+
+.artist-profile-discography-title, .artist-profile-alike-artist-title{
   margin-bottom: 20px;
 }
 
@@ -130,4 +148,96 @@
   margin-top: 80px;
   margin-left: 45px;
   margin-right: 45px;
+}
+
+.artist-profile-middle-box{
+  display: flex;
+  padding-top: 45px;
+  padding-right: 75px;
+}
+
+.artist-profile-about-artist-container{
+  height: 87%;
+  width: 400px;
+  background-color: #ccd0cf;
+  opacity: 0.8;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.artist-page-about-artist-background-img{
+  width: 230px;
+  position: absolute;
+  left: 90px;
+  bottom: 150px;
+}
+
+.artist-profile-about-artist-content{
+  width: 100%;
+  height: 70%; /*remove this later*/
+  background-color: #0e1111;
+  position: absolute;
+  bottom: 0;
+  border-radius: 0 0 10px 10px;
+}
+
+.artist-page-about-artist-icon{
+  width: 50px;
+  position: absolute;
+  right: 15px;
+  top: 55px;
+  border: 2px solid #0e1111;
+  border-radius: 35px;
+}
+
+.artist-page-about-artist-listeners{
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 90px;
+  left: 15px;
+}
+
+.artist-profile-about-artist-description{
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  color: white;
+  font-size: 14px;
+  width: 85%;
+  text-align: justify;
+}
+
+.artist-page-about-artist-ig-icon, .artist-page-about-artist-x-icon{
+  width: 40px;
+}
+
+.artist-page-about-artist-ig-icon{
+  margin-right: 8px;
+}
+
+.artist-profile-about-artist-icon-box{
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+}
+
+.artist-profile-about-artist-grp-details-box{
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+}
+
+.artist-profile-about-artist-grp-details-title{
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.artist-profile-about-artist-words{
+  font-size: 12px;
+  color: #ccd0cf;
+  margin-bottom: 5px;
 }
