@@ -8,12 +8,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 10px;
+    margin-left: 16px;
 }
 
 .library-playlist-name{
     color: white;
-    font-size: 13px;
+    font-size: 16px;
     margin-bottom: 3px;
 }
 
@@ -39,7 +39,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 200px;
+    width: 100%;
     margin-bottom: 10px;
 }
 
@@ -68,7 +68,7 @@ hr{
 }
 
 .library-box{ 
-    width: 212px;
+    width: 13%;
     background-color: #232b2b;
     padding: 12px 12px 15px 12px;
     border-radius: 8px;
@@ -78,11 +78,10 @@ hr{
     left: 10px;
     top: 63px;
     bottom: 84px;
-    width: 200px;
 }
 
 .library-playlist-image{
-    width: 49px;
+    width: 60px;
 }
 
 .current-enlarged-playing-song-image{
