@@ -1,0 +1,30 @@
+.artist-profile-alike-artist-img {
+    width: 150px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .artist-profile-alike-artist-name {
+    color: #ccd0cf;
+    font-size: 14px;
+    align-self: center;
+  }
+  
+  .artist-profile-alike-artist-display-box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .artist-profile-alike-artist-flexbox {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .artist-profile-alike-artist-title {
+    margin-bottom: 28px;
+  }
+  
+  .artist-profile-alike-artist-box {
+    margin-top: 100px;
+  }
+  

@@ -1,0 +1,93 @@
+.artist-page-about-artist-grid-box{
+    height: 87%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 20px;
+  }
+  
+  .artist-profile-about-artist-box{
+    width: 40%;
+  }
+  
+  .artist-page-about-artist-background-img-box{
+    background-color: #ccd0cf;
+    border-radius: 8px 0 0 8px;
+    position: relative;
+  }
+  
+  .artist-page-about-artist-background-img{
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    left: 8px;
+  }
+  
+  .artist-profile-about-artist-content{
+    background-color: #0e1111;
+    border-radius: 0 8px 8px 0;
+    position: relative;
+    padding: 20px 30px 20px 30px;
+  }
+  
+  .artist-page-about-artist-name{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .artist-page-about-artist-icon{
+    width: 50px;
+    border: 2px solid #0e1111;
+    border-radius: 35px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+  }
+  
+  .artist-page-about-artist-listeners{
+    color: #ccd0cf;
+    font-size: 15px;
+    margin-top: 8px;
+  }
+  
+  .artist-profile-about-artist-description{
+    color: #ccd0cf;
+    font-size: 13px;
+    width: 100%;
+    text-align: justify;
+    margin-top: 35px;
+  }
+  
+  .artist-page-about-artist-ig-icon, .artist-page-about-artist-x-icon{
+    width: 40px;
+  }
+  
+  .artist-page-about-artist-ig-icon{
+    margin-right: 8px;
+  }
+  
+  .artist-profile-about-artist-icon-box{
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+  }
+  
+  .artist-profile-about-artist-grp-details-box{
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+  }
+  
+  .artist-profile-about-artist-grp-details-title{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+  }
+  
+  .artist-profile-about-artist-words{
+    font-size: 12px;
+    color: #ccd0cf;
+    margin-bottom: 5px;
+  }
+  

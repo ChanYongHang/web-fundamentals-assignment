@@ -1,0 +1,53 @@
+.artist-profile-discography-album-img-box{
+    position: relative;
+  }
+  
+  .artist-profile-discography-album-img {
+    width: 120px;
+    border-radius: 5px;
+  }
+  
+  .artist-profile-discography-album-vinyl-img{
+    width: 120px;
+    position: absolute;
+    left: 60px;
+    transform: rotate(35deg);
+    z-index: -1;
+  }
+  
+  .artist-profile-discography-album-name {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 162px;
+  }
+  
+  .artist-profile-discography-album-details {
+    color: #ccd0cf;
+    font-size: 12px;
+  }
+  
+  .artist-profile-discography-album-details-box{
+    flex-grow: 2;
+    margin-left: 80px;
+  }
+  
+  .artist-profile-discography-album-display-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .artist-profile-discography-box {
+    margin-top: 100px;
+  }
+  
+  .artist-profile-discography-content-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+  }
+  
+  .artist-profile-discography-title {
+    margin-bottom: 20px;
+  }

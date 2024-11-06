@@ -1,0 +1,62 @@
+.artist-profile-title{
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.artist-profile-discography-title, .artist-profile-alike-artist-title{
+  margin-bottom: 20px;
+}
+
+
+.artist-profile-middle-box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-box{
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 60px; /* remove this if u are going to apply flexbox - space-around */
+}
+
+
+/*
+.artist-profile-discography-collaboration-album-box{
+  justify-self: flex-end;
+}
+
+.artist-profile-discography-favourite-album-box{
+  justify-self: center;
+}
+*/
+
+
+
+.artist-profile-merch-bckgrnd-box, .artist-profile-background-box{
+  position: relative;
+}
+
+.artist-profile-merch-bckgrnd, .artist-profile-discography-bckgrnd{
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 8px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
+}
+
+.artist-profile-merch-bckgrnd-words, .artist-profile-discography-words{
+  position: absolute;
+  top: 225px;
+  margin-top: -29px;
+  left: 718.5px;
+  margin-left: -214px;
+  color: white;
+  font-weight: bold;
+  font-size: 70px;
+}
+
+
+
+

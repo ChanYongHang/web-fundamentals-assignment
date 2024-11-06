@@ -10,9 +10,15 @@
     <link rel="stylesheet" href="styles/timeline-section.css">
     <link rel="stylesheet" href="styles/content-section.css">
     <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/artist-profile-top-section.css">
-    <link rel="stylesheet" href="styles/artist-profile-content-section.css">
+    <link rel="stylesheet" href="styles/artist-page/top-section.css">
+    <link rel="stylesheet" href="styles/artist-page/general.css">
+    <link rel="stylesheet" href="styles/artist-page/top-releases-section.css">
+    <link rel="stylesheet" href="styles/artist-page/discography-section.css">
+    <link rel="stylesheet" href="styles/artist-page/alike-artist-section.css">
+    <link rel="stylesheet" href="styles/artist-page/about-artist-section.css">
+    <link rel="stylesheet" href="styles/artist-page/merch-section.css">
     <link rel="stylesheet" href="styles/footer-section.css">
+    
     
     <style>
 
@@ -275,125 +281,132 @@
             </div>
     
             <div class="artist-profile-discography-box">
-                <div class="artist-profile-discography-album-box">
-                    <p class="artist-profile-title artist-profile-discography-title">Albums</p>
-                    <div class="artist-profile-discography-album-display-box">
-                        <div class="artist-profile-discography-album-img-box">
-                            <img class="artist-profile-discography-album-img" src="resources/artist-page/artist-page-discography/annie-wte.jpeg" alt="">
-                            <img class="artist-profile-discography-album-vinyl-img" src="resources/artist-page/artist-page-discography/black-vinyl-annie.png" alt="">
-                        </div>
-                        <div class="artist-profile-discography-album-details-box">
-                            <p class="artist-profile-discography-album-name">play with earth! 0.03 (extended)</p>
-                            <p class="artist-profile-discography-album-details">Latest Releases | Album</p>
-                        </div>
-                    </div>
-    
-                    <div class="artist-profile-discography-album-display-box">
-                        <div class="artist-profile-discography-album-img-box">
-                            <img class="artist-profile-discography-album-img" src="resources/artist-page/artist-page-discography/bad-wte.jpeg" alt="">
-                            <img class="artist-profile-discography-album-vinyl-img" src="resources/artist-page/artist-page-discography/black-vinyl-bad.png" alt="">
-                        </div>
-                        <div class="artist-profile-discography-album-details-box">
-                            <p class="artist-profile-discography-album-name">0.1 flaws and all.</p>
-                            <p class="artist-profile-discography-album-details">2023 | Album</p>
-                        </div>
-                    </div>
-    
-                    <div class="artist-profile-discography-album-display-box">
-                        <div class="artist-profile-discography-album-img-box">
-                            <img class="artist-profile-discography-album-img" src="resources/artist-page/artist-page-discography/seasons-wte.jpeg" alt="">
-                            <img class="artist-profile-discography-album-vinyl-img" src="resources/artist-page/artist-page-discography/black-vinyl-seasons.png" alt="">
-                        </div>
-                        <div class="artist-profile-discography-album-details-box">
-                            <p class="artist-profile-discography-album-name">summer flows 0.02</p>
-                            <p class="artist-profile-discography-album-details">2020 | EP</p>
-                        </div>
-                    </div>
-    
-                    <button class="artist-profile-top-releases-expand-button">
-                        more.
-                    </button>
+                <div class="artist-profile-background-box">
+                    <img class="artist-profile-discography-bckgrnd" src="resources/artist-page/artist-page-discography/discography-background-cropped.jpeg" alt="">
+                    <p class="artist-profile-discography-words">Discography</p>
                 </div>
-    
-                <div class="artist-profile-discography-album-box artist-profile-discography-favourite-album-box">
-                    <p class="artist-profile-title artist-profile-discography-title">All Time Favourite</p>
-                    <div class="artist-profile-discography-album-display-box">
-                        <div class="artist-profile-discography-album-img-box">
-                            <img class="artist-profile-discography-album-img" src="resources/artist-page/artist-page-discography/bad-wte.jpeg" alt="">
-                            <img class="artist-profile-discography-album-vinyl-img" src="resources/artist-page/artist-page-discography/black-vinyl-bad.png" alt="">
+                <div class="artist-profile-discography-content-box">
+                    <div class="artist-profile-discography-album-box">
+                        <p class="artist-profile-title artist-profile-discography-title">Albums</p>
+                        <div class="artist-profile-discography-album-display-box">
+                            <div class="artist-profile-discography-album-img-box">
+                                <img class="artist-profile-discography-album-img" src="resources/artist-page/artist-page-discography/annie-wte.jpeg" alt="">
+                                <img class="artist-profile-discography-album-vinyl-img" src="resources/artist-page/artist-page-discography/black-vinyl-annie.png" alt="">
+                            </div>
+                            <div class="artist-profile-discography-album-details-box">
+                                <p class="artist-profile-discography-album-name">play with earth! 0.03 (extended)</p>
+                                <p class="artist-profile-discography-album-details">Latest Releases | Album</p>
+                            </div>
                         </div>
-                        <div class="artist-profile-discography-album-details-box">
-                            <p class="artist-profile-discography-album-name">bad</p>
-                            <p class="artist-profile-discography-album-details">2023</p>
+        
+                        <div class="artist-profile-discography-album-display-box">
+                            <div class="artist-profile-discography-album-img-box">
+                                <img class="artist-profile-discography-album-img" src="resources/artist-page/artist-page-discography/bad-wte.jpeg" alt="">
+                                <img class="artist-profile-discography-album-vinyl-img" src="resources/artist-page/artist-page-discography/black-vinyl-bad.png" alt="">
+                            </div>
+                            <div class="artist-profile-discography-album-details-box">
+                                <p class="artist-profile-discography-album-name">0.1 flaws and all.</p>
+                                <p class="artist-profile-discography-album-details">2023 | Album</p>
+                            </div>
                         </div>
+        
+                        <div class="artist-profile-discography-album-display-box">
+                            <div class="artist-profile-discography-album-img-box">
+                                <img class="artist-profile-discography-album-img" src="resources/artist-page/artist-page-discography/seasons-wte.jpeg" alt="">
+                                <img class="artist-profile-discography-album-vinyl-img" src="resources/artist-page/artist-page-discography/black-vinyl-seasons.png" alt="">
+                            </div>
+                            <div class="artist-profile-discography-album-details-box">
+                                <p class="artist-profile-discography-album-name">summer flows 0.02</p>
+                                <p class="artist-profile-discography-album-details">2020 | EP</p>
+                            </div>
+                        </div>
+        
+                        <button class="artist-profile-top-releases-expand-button">
+                            more.
+                        </button>
                     </div>
-    
-                    <div class="artist-profile-discography-album-display-box">
-                        <div class="artist-profile-discography-album-img-box">
-                            <img class="artist-profile-discography-album-img" src="resources/artist-page/artist-page-discography/light-wte.jpeg" alt="">
-                            <img class="artist-profile-discography-album-vinyl-img" src="resources/artist-page/artist-page-discography/black-vinyl-light.png" alt="">
+        
+                    <div class="artist-profile-discography-album-box artist-profile-discography-favourite-album-box">
+                        <p class="artist-profile-title artist-profile-discography-title">All Time Favourite</p>
+                        <div class="artist-profile-discography-album-display-box">
+                            <div class="artist-profile-discography-album-img-box">
+                                <img class="artist-profile-discography-album-img" src="resources/artist-page/artist-page-discography/bad-wte.jpeg" alt="">
+                                <img class="artist-profile-discography-album-vinyl-img" src="resources/artist-page/artist-page-discography/black-vinyl-bad.png" alt="">
+                            </div>
+                            <div class="artist-profile-discography-album-details-box">
+                                <p class="artist-profile-discography-album-name">bad</p>
+                                <p class="artist-profile-discography-album-details">2023</p>
+                            </div>
                         </div>
-                        <div class="artist-profile-discography-album-details-box">
-                            <p class="artist-profile-discography-album-name">light</p>
-                            <p class="artist-profile-discography-album-details">2020</p>
+        
+                        <div class="artist-profile-discography-album-display-box">
+                            <div class="artist-profile-discography-album-img-box">
+                                <img class="artist-profile-discography-album-img" src="resources/artist-page/artist-page-discography/light-wte.jpeg" alt="">
+                                <img class="artist-profile-discography-album-vinyl-img" src="resources/artist-page/artist-page-discography/black-vinyl-light.png" alt="">
+                            </div>
+                            <div class="artist-profile-discography-album-details-box">
+                                <p class="artist-profile-discography-album-name">light</p>
+                                <p class="artist-profile-discography-album-details">2020</p>
+                            </div>
                         </div>
+        
+                        <div class="artist-profile-discography-album-display-box">
+                            <div class="artist-profile-discography-album-img-box">
+                                <img class="artist-profile-discography-album-img" src="resources/artist-page/artist-page-discography/bonfire.png" alt="">
+                                <img class="artist-profile-discography-album-vinyl-img" src="resources/artist-page/artist-page-discography/black-vinyl-bonfire.png" alt="">
+                            </div>
+                            <div class="artist-profile-discography-album-details-box">
+                                <p class="artist-profile-discography-album-name">bonfire</p>
+                                <p class="artist-profile-discography-album-details">2020</p>
+                            </div>
+                        </div>
+        
+                        <button class="artist-profile-top-releases-expand-button">
+                            more.
+                        </button>
                     </div>
-    
-                    <div class="artist-profile-discography-album-display-box">
-                        <div class="artist-profile-discography-album-img-box">
-                            <img class="artist-profile-discography-album-img" src="resources/artist-page/artist-page-discography/bonfire.png" alt="">
-                            <img class="artist-profile-discography-album-vinyl-img" src="resources/artist-page/artist-page-discography/black-vinyl-bonfire.png" alt="">
+        
+                    <div class="artist-profile-discography-album-box artist-profile-discography-collaboration-album-box">
+                        <p class="artist-profile-title artist-profile-discography-title">Collaborations</p>
+                        <div class="artist-profile-discography-album-display-box">
+                            <div class="artist-profile-discography-album-img-box">
+                                <img class="artist-profile-discography-album-img" src="resources/artist-page/artist-page-discography/summer-night-collab.jpeg" alt="">
+                                <img class="artist-profile-discography-album-vinyl-img" src="resources/artist-page/artist-page-discography/black-vinyl-summer-night.png" alt="">
+                            </div>
+                            <div class="artist-profile-discography-album-details-box">
+                                <p class="artist-profile-discography-album-name">summer,night</p>
+                                <p class="artist-profile-discography-album-details">Joen Jin Hee, wave to earth</p>
+                            </div>
                         </div>
-                        <div class="artist-profile-discography-album-details-box">
-                            <p class="artist-profile-discography-album-name">bonfire</p>
-                            <p class="artist-profile-discography-album-details">2020</p>
+        
+                        <div class="artist-profile-discography-album-display-box">
+                            <div class="artist-profile-discography-album-img-box">
+                                <img class="artist-profile-discography-album-img" src="resources/artist-page/artist-page-discography/black-mountain-collab.jpeg" alt="">
+                                <img class="artist-profile-discography-album-vinyl-img" src="resources/artist-page/artist-page-discography/black-vinyl-black-mountain.png" alt="">
+                            </div>
+                            <div class="artist-profile-discography-album-details-box">
+                                <p class="artist-profile-discography-album-name">black mountain</p>
+                                <p class="artist-profile-discography-album-details">PEPERTONES, wave to earth</p>
+                            </div>
                         </div>
+        
+                        <div class="artist-profile-discography-album-display-box">
+                            <div class="artist-profile-discography-album-img-box">
+                                <img class="artist-profile-discography-album-img" src="resources/artist-page/artist-page-discography/to-us-collab.jpeg" alt="">
+                                <img class="artist-profile-discography-album-vinyl-img" src="resources/artist-page/artist-page-discography/black-vinyl-to-us.png" alt="">
+                            </div>
+                            <div class="artist-profile-discography-album-details-box">
+                                <p class="artist-profile-discography-album-name">to us</p>
+                                <p class="artist-profile-discography-album-details">APRO, WAVY, wave to earth</p>
+                            </div>
+                        </div>
+        
+                        <button class="artist-profile-top-releases-expand-button">
+                            more.
+                        </button>
                     </div>
-    
-                    <button class="artist-profile-top-releases-expand-button">
-                        more.
-                    </button>
                 </div>
-    
-                <div class="artist-profile-discography-album-box artist-profile-discography-collaboration-album-box">
-                    <p class="artist-profile-title artist-profile-discography-title">Collaborations</p>
-                    <div class="artist-profile-discography-album-display-box">
-                        <div class="artist-profile-discography-album-img-box">
-                            <img class="artist-profile-discography-album-img" src="resources/artist-page/artist-page-discography/summer-night-collab.jpeg" alt="">
-                            <img class="artist-profile-discography-album-vinyl-img" src="resources/artist-page/artist-page-discography/black-vinyl-summer-night.png" alt="">
-                        </div>
-                        <div class="artist-profile-discography-album-details-box">
-                            <p class="artist-profile-discography-album-name">summer,night</p>
-                            <p class="artist-profile-discography-album-details">Joen Jin Hee, wave to earth</p>
-                        </div>
-                    </div>
-    
-                    <div class="artist-profile-discography-album-display-box">
-                        <div class="artist-profile-discography-album-img-box">
-                            <img class="artist-profile-discography-album-img" src="resources/artist-page/artist-page-discography/black-mountain-collab.jpeg" alt="">
-                            <img class="artist-profile-discography-album-vinyl-img" src="resources/artist-page/artist-page-discography/black-vinyl-black-mountain.png" alt="">
-                        </div>
-                        <div class="artist-profile-discography-album-details-box">
-                            <p class="artist-profile-discography-album-name">black mountain</p>
-                            <p class="artist-profile-discography-album-details">PEPERTONES, wave to earth</p>
-                        </div>
-                    </div>
-    
-                    <div class="artist-profile-discography-album-display-box">
-                        <div class="artist-profile-discography-album-img-box">
-                            <img class="artist-profile-discography-album-img" src="resources/artist-page/artist-page-discography/to-us-collab.jpeg" alt="">
-                            <img class="artist-profile-discography-album-vinyl-img" src="resources/artist-page/artist-page-discography/black-vinyl-to-us.png" alt="">
-                        </div>
-                        <div class="artist-profile-discography-album-details-box">
-                            <p class="artist-profile-discography-album-name">to us</p>
-                            <p class="artist-profile-discography-album-details">APRO, WAVY, wave to earth</p>
-                        </div>
-                    </div>
-    
-                    <button class="artist-profile-top-releases-expand-button">
-                        more.
-                    </button>
-                </div>  
+                  
             </div>
 
             <div class="artist-profile-merch-box">
@@ -406,42 +419,49 @@
                         <img class="artist-profile-merch-img" src="resources/artist-page/artist-page-merch/wte-merch-organic-swearter-black.png" alt="">
                         <p class="artist-profile-merch-name">Organic Sweater Unisex</p>
                         <p class="artist-profile-merch-color">Black</p>
+                        <p class="artist-profile-merch-price">RM 200</p>
                     </div>
     
                     <div class="artist-profile-merch-container">
                         <img class="artist-profile-merch-img" src="resources/artist-page/artist-page-merch/wte-merch-premium-sweater-black.png" alt="">
                         <p class="artist-profile-merch-name">Premium Sweater Unisex</p>
                         <p class="artist-profile-merch-color">Black</p>
+                        <p class="artist-profile-merch-price">RM 200</p>
                     </div>
     
                     <div class="artist-profile-merch-container">
                         <img class="artist-profile-merch-img" src="resources/artist-page/artist-page-merch/wte-merch-premium-sweater-grey.png" alt="">
                         <p class="artist-profile-merch-name">Premium Sweater Unisex</p>
                         <p class="artist-profile-merch-color">Grey</p>
+                        <p class="artist-profile-merch-price">RM 200</p>
                     </div>
     
                     <div class="artist-profile-merch-container">
                         <img class="artist-profile-merch-img" src="resources/artist-page/artist-page-merch/wte-merch-sweatshirt-black.png" alt="">
                         <p class="artist-profile-merch-name">Sweatshirt Unisex</p>
                         <p class="artist-profile-merch-color">Black</p>
+                        <p class="artist-profile-merch-price">RM 200</p>
                     </div>
     
                     <div class="artist-profile-merch-container">
                         <img class="artist-profile-merch-img" src="resources/artist-page/artist-page-merch/wte-merch-t-shirt-black.png" alt="">
                         <p class="artist-profile-merch-name">T-Shirt Unisex</p>
                         <p class="artist-profile-merch-color">Black</p>
+                        <p class="artist-profile-merch-price">RM 200</p>
                     </div>
     
                     <div class="artist-profile-merch-container">
                         <img class="artist-profile-merch-img" src="resources/artist-page/artist-page-merch/wte-merch-t-shirt-sport-grey.png" alt="">
                         <p class="artist-profile-merch-name">T-Shirt Unisex</p>
                         <p class="artist-profile-merch-color">Grey</p>
+                        <p class="artist-profile-merch-price">RM 200</p>
                     </div>
     
                     <div class="artist-profile-merch-container">
                         <img class="artist-profile-merch-img" src="resources/artist-page/artist-page-merch/wte-merch-tanktop-black.png" alt="">
                         <p class="artist-profile-merch-name">Tank Top</p>
                         <p class="artist-profile-merch-color">Black</p>
+                        <p class="artist-profile-merch-price">RM 200</p>
                     </div>
                 </div>
                 <button class="artist-profile-merch-shop-button">Shop More</button>
@@ -504,7 +524,6 @@
                 
             </div>
         </div>
-        
 
         <div class="footer-box">
             <div class="footer-about-us-box">

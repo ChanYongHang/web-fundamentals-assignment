@@ -1,0 +1,55 @@
+.artist-profile-merch-img{
+    width: 150px;
+    border-radius: 8px;
+  }
+  
+  .artist-profile-merch-flexbox{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .artist-profile-merch-container{
+    word-wrap: break-word;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .artist-profile-merch-price{
+    position: absolute;
+    background-color: #0e1111;
+    color: #ccd0cf;
+    font-size: 11px;
+    padding: 4px;
+    border-radius: 4px 0 0 0;
+  }
+  
+  .artist-profile-merch-name{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 8px;
+  }
+  
+  .artist-profile-merch-color{
+    color: #ccd0cf;
+    font-size: 12px;
+  }
+  
+  .artist-profile-merch-shop-button{
+    background-color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 14px;
+    align-self: center;
+    margin-top: 20px;
+  }
+  
+  .artist-profile-merch-box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
