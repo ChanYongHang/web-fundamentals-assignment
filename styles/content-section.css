@@ -1,8 +1,8 @@
-.content-part{
-    background-color: #232323;
-    border-radius: 8px;
-    flex-grow: 1;
-    margin-left: 0.6%;
-    overflow: scroll;
-    overflow-x: hidden;
+.content-part {
+  background-color: #232323;
+  border-radius: 8px;
+  flex-grow: 1;
+  margin-left: 0.6%;
+  overflow: scroll;
+  overflow-x: scroll;
 }

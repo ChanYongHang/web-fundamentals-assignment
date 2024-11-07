@@ -1,0 +1,87 @@
+.artist-profile-music-video-box{
+  margin-top: 100px;
+}
+
+.artist-profile-music-video-gridbox {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 50px;
+  column-gap: 20px;
+}
+
+.artist-profile-music-video-thumbnail {
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.artist-profile-music-video-thumbnail-box {
+  width: 95%;
+  height: 168px;
+  position: relative;
+}
+
+.artist-profile-music-video-content-gridbox {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+}
+
+.artist-profile-music-video-thumbnail-flexbox{
+  display: flex;
+  flex-direction: column;
+}
+
+.artist-profile-music-video-duration {
+  position: absolute;
+  bottom: 3px;
+  right: 4px;
+  color: white;
+  background-color: #0e1111;
+  opacity: 0.8;
+  padding: 3px;
+  font-size: 12px;
+  border-radius: 2px;
+}
+
+.artist-profile-music-video-details-box {
+  margin-top: 10px;
+}
+
+.artist-profile-music-video-title {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.artist-profile-music-video-views {
+  color: #ccd0cf;
+  font-size: 11px;
+}
+
+.artist-profile-music-video-numbering {
+  font-size: 16px;
+  color: #ccd0cf;
+  font-weight: bold;
+}
+
+.artist-profile-music-video-trend-increase-img, .artist-profile-music-video-trend-decrease-img{
+  width: 18px;
+  margin-top: 10px;
+}
+
+.artist-profile-music-video-trend-increase-img{
+  transform: rotate(-90deg);
+}
+
+.artist-profile-music-video-trend-decrease-img{
+  transform: rotate(90deg);
+}
+
+.artist-profile-music-video-numbering-box {
+  display: column;
+  justify-items: center;
+}
