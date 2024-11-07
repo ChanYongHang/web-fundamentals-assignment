@@ -1,7 +1,7 @@
 .artist-page-about-artist-grid-box{
     height: 87%;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
   }
   
   .artist-profile-about-artist-box{
@@ -12,14 +12,13 @@
   .artist-page-about-artist-background-img-box{
     background-color: #ccd0cf;
     border-radius: 8px 0 0 8px;
-    position: relative;
   }
   
   .artist-page-about-artist-background-img{
     width: 100%;
-    position: absolute;
-    bottom: 50px;
-    left: 8px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
   }
   
   .artist-profile-about-artist-content{
@@ -31,7 +30,7 @@
   
   .artist-page-about-artist-name{
     color: white;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: bold;
   }
   
@@ -45,13 +44,13 @@
   
   .artist-page-about-artist-listeners{
     color: #ccd0cf;
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 8px;
   }
   
   .artist-profile-about-artist-description{
     color: #ccd0cf;
-    font-size: 13px;
+    font-size: 12px;
     width: 100%;
     text-align: justify;
     margin-top: 35px;
@@ -75,7 +74,7 @@
   
   .artist-profile-about-artist-grp-details-box{
     position: absolute;
-    bottom: 15px;
+    bottom: 2%;
     left: 30px;
   }
   

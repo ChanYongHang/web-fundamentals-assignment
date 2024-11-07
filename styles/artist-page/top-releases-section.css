@@ -31,9 +31,8 @@
   }
   
   .artist-profile-top-releases-box{
-    width: 55%;
     flex-grow: 1;
-    margin-right: 3%;
+    margin-right: 5%;
   }
   
   .artist-profile-top-releases-songs-details-box {
