@@ -2,17 +2,14 @@
   color: white;
   font-size: 26px;
   font-weight: bold;
-  text-decoration: underline;
+  padding-bottom: 30px;
 }
-
-.artist-profile-discography-title, .artist-profile-alike-artist-title{
-  margin-bottom: 20px;
-}
-
 
 .artist-profile-middle-box{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 50px;
 }
 
 .content-box{
@@ -34,7 +31,7 @@
 
 
 
-.artist-profile-merch-bckgrnd-box, .artist-profile-background-box{
+.artist-profile-background-box{
   position: relative;
 }
 
@@ -48,13 +45,12 @@
 
 .artist-profile-merch-bckgrnd-words, .artist-profile-discography-words{
   position: absolute;
-  top: 225px;
-  margin-top: -29px;
-  left: 718.5px;
-  margin-left: -214px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
   font-weight: bold;
-  font-size: 70px;
+  font-size: 5vw;
 }
 
 

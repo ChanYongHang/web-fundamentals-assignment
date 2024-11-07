@@ -18,10 +18,8 @@
   .artist-profile-alike-artist-flexbox {
     display: flex;
     justify-content: space-between;
-  }
-  
-  .artist-profile-alike-artist-title {
-    margin-bottom: 28px;
+    flex-wrap: wrap;
+    row-gap: 15px;
   }
   
   .artist-profile-alike-artist-box {

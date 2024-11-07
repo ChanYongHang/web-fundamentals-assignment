@@ -43,11 +43,8 @@
   }
   
   .artist-profile-discography-content-box{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-  }
-  
-  .artist-profile-discography-title {
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 35px;
   }

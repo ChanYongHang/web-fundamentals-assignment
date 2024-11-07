@@ -1,5 +1,5 @@
 .content-part{
-    background-color: #232b2b;
+    background-color: #232323;
     border-radius: 8px;
     position: fixed;
     width: 84%;
@@ -7,5 +7,5 @@
     top: 63px;
     bottom: 84px;
     overflow: scroll;
-    
+    overflow-x: hidden;
 }

@@ -80,8 +80,9 @@
 
 .artist-profile-top-details-box{
     position: absolute;
+    top: 90px;
     right: 150px;
-    bottom: 225px;
+    
     margin-bottom: -114.5px;
     width: 295px;
 }
