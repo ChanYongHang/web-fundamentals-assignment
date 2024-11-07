@@ -1,11 +1,8 @@
 .content-part{
     background-color: #232323;
     border-radius: 8px;
-    position: fixed;
-    width: 84%;
-    right: 10px;
-    top: 63px;
-    bottom: 84px;
+    flex-grow: 1;
+    margin-left: 0.6%;
     overflow: scroll;
     overflow-x: hidden;
 }

@@ -13,7 +13,7 @@
 
 .library-playlist-name{
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 3px;
 }
 
@@ -74,9 +74,6 @@ hr{
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    position: fixed;
-    left: 10px;
-    top: 63px;
     bottom: 84px;
 }
 
@@ -86,7 +83,6 @@ hr{
 
 .current-enlarged-playing-song-image{
     transform: rotate(40deg);
-    height: 100%;
     width: 100%;
 }
 
@@ -96,12 +92,14 @@ hr{
 }
 
 .current-playing-collapse-img{
-    width: 20px;
+    width: 10%;
     transform: rotate(90deg);
-}
-
-.current-playing-collapse-box{
     position: absolute;
     top: 0;
     right: 0;
+}
+
+.current-playing-collapse-box{
+    
+    
 }

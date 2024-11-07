@@ -1,7 +1,6 @@
 .current-playing-img{
     width: 52px;
     border-radius: 5px;
-    margin-left: 12px;
 }
 
 .current-playing-title{
@@ -23,8 +22,7 @@
 .current-playing-box{
     display: flex;
     align-items: center;
-    padding-left: 12px;
-    padding-right: 5px;
+    padding-left: 1vw;
     margin-top: 10px;
 }
 
@@ -75,13 +73,12 @@
 
 .timeline-box{
     display: grid;
-    grid-template-columns: 236px 1fr;
-    column-gap: 10px;
+    grid-template-columns: 13% 1fr;
     position: fixed;
     bottom: 0;
     right: 0;
     left: 0;
-    padding-bottom: 10px;
+    height: 84px;
     background-color: #0e1111;
 }
 
@@ -100,6 +97,5 @@
     display: grid;
     grid-template-columns: 1fr;
     flex-grow: 1;
-    margin-left: 10px;
     margin-right: 10px;
 }

@@ -2,11 +2,11 @@
     height: 87%;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    margin-top: 20px;
   }
   
   .artist-profile-about-artist-box{
-    width: 40%;
+    width: 35%;
+    min-width: 420px;
   }
   
   .artist-page-about-artist-background-img-box{
@@ -36,12 +36,11 @@
   }
   
   .artist-page-about-artist-icon{
-    width: 50px;
-    border: 2px solid #0e1111;
+    width: 15%;
     border-radius: 35px;
     position: absolute;
-    right: 30px;
-    top: 20px;
+    right: 5%;
+    top: 5%;
   }
   
   .artist-page-about-artist-listeners{
@@ -59,7 +58,7 @@
   }
   
   .artist-page-about-artist-ig-icon, .artist-page-about-artist-x-icon{
-    width: 40px;
+    width: 12%;
   }
   
   .artist-page-about-artist-ig-icon{
@@ -68,8 +67,10 @@
   
   .artist-profile-about-artist-icon-box{
     position: absolute;
-    right: 30px;
-    bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    bottom: 3%;
+    right: 5%;
   }
   
   .artist-profile-about-artist-grp-details-box{

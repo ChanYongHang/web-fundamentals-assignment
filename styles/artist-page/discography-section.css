@@ -1,10 +1,16 @@
 .artist-profile-discography-album-img-box{
     position: relative;
+    height: 120px;
+    width: 180px;
   }
   
   .artist-profile-discography-album-img {
     width: 120px;
     border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
   }
   
   .artist-profile-discography-album-vinyl-img{
@@ -12,7 +18,6 @@
     position: absolute;
     left: 60px;
     transform: rotate(35deg);
-    z-index: -1;
   }
   
   .artist-profile-discography-album-name {
@@ -29,7 +34,7 @@
   
   .artist-profile-discography-album-details-box{
     flex-grow: 2;
-    margin-left: 80px;
+    margin-left: 20px;
   }
   
   .artist-profile-discography-album-display-box {
