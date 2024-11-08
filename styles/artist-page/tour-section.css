@@ -1,0 +1,41 @@
+.artist-profile-tour-counting-gridbox{
+    display: grid;
+    grid-template-columns: 1fr 20px 1fr 20px 1fr;
+    justify-items: center;
+    width: 30%;
+    row-gap: 16px;
+}
+
+.artist-profile-tour-countdown-header, .artist-profile-tour-countdown-time{
+    color: white;
+    
+}
+
+.artist-profile-tour-countdown-header{
+    font-size: 14px;
+    color: #ccd0cf;
+    font-weight: bold;
+}
+
+.artist-profile-tour-countdown-time{
+    font-size: 76px;
+    font-weight: bold;
+    color: #FCCB06;
+}
+
+.artist-profile-tour-title{
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 26px;
+}
+
+.artist-profile-tour-details-flexbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.artist-profile-tour-box{
+    margin-top: 100px;
+}
