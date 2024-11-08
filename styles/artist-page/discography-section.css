@@ -24,17 +24,18 @@
     color: white;
     font-size: 16px;
     margin-bottom: 10px;
-    width: 162px;
+    width: 150px;
   }
   
   .artist-profile-discography-album-details {
     color: #ccd0cf;
     font-size: 12px;
+    width: 150px;
   }
   
   .artist-profile-discography-album-details-box{
     flex-grow: 2;
-    margin-left: 20px;
+    margin-left: 12px;
   }
   
   .artist-profile-discography-album-display-box {
