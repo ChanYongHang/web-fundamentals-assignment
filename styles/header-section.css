@@ -1,91 +1,224 @@
-.header-logo{
-    width: 40px;
-    vertical-align: middle;
+.header-logo {
+  width: 40px;
+  vertical-align: middle;
 }
 
-.header-logo-name{
-    display: inline;
-    color: #ccd0cf;
-    font-size: 14px;
-    font-weight: bold;
-    margin-left: 8px;
+.header-logo-name {
+  display: inline;
+  color: #ccd0cf;
+  font-size: 14px;
+  font-weight: bold;
 }
 
-.header-search-icon{
-    width: 22px;
-    vertical-align: middle;
-    
+.header-search-icon {
+  width: 22px;
+  vertical-align: middle;
 }
 
-.header-search-displayed-words{
-    color: #ccd0cf;
-    display: inline;
-    font-size: 14px;
-    margin-left: 10px;
+.header-search-displayed-words {
+  color: #ccd0cf;
+  display: inline;
+  font-size: 14px;
+  margin-left: 10px;
 }
 
-.header-search-bar-container{
-    background-color: #232323;
-    padding: 10px 10px 10px 10px;
-    border-radius: 25px;
-    flex-grow: 1;
-    margin-right: 10px;
+.header-search-bar-container {
+  background-color: #232323;
+  padding: 10px 10px 10px 10px;
+  border-radius: 25px;
+  flex-grow: 1;
+  margin-right: 10px;
 }
 
-.header-search-bar-idea-icon{
-    width: 22px;
-    background-color: #232323;
-    padding: 10px;
-    border-radius: 50px;
+.header-search-bar-idea-icon {
+  width: 22px;
+  background-color: #232323;
+  padding: 10px;
+  border-radius: 50px;
+  margin-left: 10px;
 }
 
-.header-search-bar-section{
-    display: flex;
-    width: 450px;
-    align-items: center;
+/*
+#idea-icon-b4-hover:hover {
+  display: none;
 }
 
-.header-username{
-    color: #ccd0cf;
-    font-size: 14px;
-    margin-right: 6px;
-    font-weight: bold;
+#idea-icon-after-hover:hover {
+  background-color: #ccd0cf;
+  display: inline;
+}
+  */
+
+.header-search-bar-section {
+  display: flex;
+  flex: 1;
+  max-width: 500px;
+  align-items: center;
+  margin-right: 20px;
 }
 
-.header-user-profile-logo{
-    width: 40px;
+.header-search-button {
+  background-color: #232323;
+  padding: 10px 12px;
+  border-radius: 0 20px 20px 0;
 }
 
-.header-user-profile-bpx{
-    position: relative;
+.search-bar {
+  flex: 1;
+  height: 40px;
+  background-color: #232323;
+  border: none;
+  padding-left: 16px;
+  border-radius: 20px 0 0 20px;
 }
 
-.header-box{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    right: 5px;
-    left: 0;
-    height: 70px;
-    background-color: #0e1111;
-    
+.search-bar::placeholder {
+  color: #ccd0cf;
+  font-size: 14px;
 }
 
-.header-logo-section{
-    margin-left: 8px;
+.search-bar:focus{
+  outline: none;
+  border: none;
 }
 
-.header-user-section{
-    margin-right: 8px;
-    display: flex;
-    align-items: center;
+.header-username {
+  color: #ccd0cf;
+  font-size: 14px;
+  margin-right: 6px;
+  font-weight: bold;
 }
 
-.header-user-profile-online{
-    width: 38px;
-    position: absolute;
-    bottom: 0;
-    right: -5px;
+.header-user-profile-logo {
+  width: 40px;
+}
+
+.header-user-profile-box {
+  position: relative;
+}
+
+/*new
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: #2b313f;
+  z-index: 5;
+}
+  */
+
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 70px;
+  background-color: #0e1111;
+  z-index: 5;
+}
+  
+
+.header-logo-section {
+  margin-left: 1%;
+  width: 13%;
+}
+
+.header-user-section {
+  display: flex;
+  align-items: center;
+}
+
+.header-user-profile-online {
+  width: 38px;
+  position: absolute;
+  bottom: -10px;
+  right: -12px;
+}
+
+.timeline-selection-previous-button {
+  transform: rotate(180deg);
+}
+
+.tooltip {
+  color: black;
+  font-size: 11px;
+  background-color: rgba(211, 211, 211, 0.6);
+  padding: 5px 8px;
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  position: absolute;
+}
+
+.header-search-bar-idea-button .tooltip {
+  bottom: -30px;
+}
+
+.header-search-bar-idea-button,
+.header-search-button,
+.header-user-button,
+.header-logo-button {
+  position: relative;
+}
+
+
+.header-search-bar-idea-button:hover .tooltip,
+.header-search-button:hover .tooltip,
+.header-user-button:hover .tooltip,
+.header-logo-button:hover .tooltip {
+  opacity: 1;
+}
+
+.header-search-button .tooltip {
+  bottom: -40px;
+  left: -15px;
+}
+
+.header-user-button .tooltip {
+  bottom: -30px;
+  right: 10px;
+}
+
+.header-logo-button .tooltip {
+  bottom: -30px;
+  right: -30px;
+}
+
+.header-right-section {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.get-premium-button, .nav-home-button, .nav-discover-button, .nav-about-us-button {
+  color: white;
+  font-size: 16px;
+  
+}
+
+.get-premium-button:hover, .nav-home-button:hover, .nav-discover-button:hover, .nav-about-us-button:hover{
+  background-color: #ccd0cf;
+  font-weight: bold;
+  color: black;
+  padding: 10px 12px;
+  border-radius: 20px;
+}
+
+.get-premium-box {
+  flex: 1;
+  margin-right: 5px;
+}
+
+.nav-box{
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

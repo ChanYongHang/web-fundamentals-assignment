@@ -55,15 +55,24 @@
     text-align: justify;
     margin-top: 35px;
   }
-  
-  .artist-page-about-artist-ig-icon, .artist-page-about-artist-x-icon{
+
+  .artist-profile-about-artist-description-second-para{
+    margin-top: 5%;
+  }
+
+
+  .artist-page-about-artist-ig-button, .artist-page-about-artist-x-button{
     width: 12%;
   }
-  
-  .artist-page-about-artist-ig-icon{
+
+  .artist-page-about-artist-ig-button{
     margin-right: 8px;
   }
   
+  .artist-page-about-artist-ig-icon, .artist-page-about-artist-x-icon{
+    width: 100%;
+  }
+
   .artist-profile-about-artist-icon-box{
     position: absolute;
     display: flex;
@@ -89,5 +98,13 @@
     font-size: 12px;
     color: #ccd0cf;
     margin-bottom: 5px;
+  }
+
+  .artist-profile-about-artist-description-expand-button{
+    color: white;
+    text-decoration: underline;
+    font-size: 11px;
+    margin-top: 5%;
+    display: none;
   }
   

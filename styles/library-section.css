@@ -1,105 +1,184 @@
-.library-playlist-display-box{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 10px;
+.library-playlist-display-box {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
 }
 
-.library-playlist-info-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 16px;
+.library-playlist-info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 16px;
 }
 
-.library-playlist-name{
-    color: white;
-    font-size: 14px;
-    margin-bottom: 3px;
+.library-playlist-name {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 3px;
+  text-decoration: none;
 }
 
-.library-playlist-info{
-    color: #ccd0cf;
-    font-size: 12px;
+.library-playlist-info {
+  color: #ccd0cf;
+  font-size: 12px;
 }
 
-.library-artist-profile-image{
-    border-radius: 3px;
+.library-artist-profile-image {
+  border-radius: 3px;
 }
 
-.library-items-box{
-    /* height: 365px; */
-    overflow: scroll;
+.library-items-box {
+  overflow: scroll;
 }
 
-.library-items-box::-webkit-scrollbar{
-    display: none;
+.library-items-box::-webkit-scrollbar {
+  display: none;
 }
 
-.library-title-box, .library-sort-search-box{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 10px;
+.library-title-box,
+.library-sort-search-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 10px;
 }
 
-.library-title-add-icon, .library-search-icon{
-    width: 16px;
-    margin-left: 5px;
+.library-title-box{
+  border-bottom: 1px solid #ccd0cf;
 }
 
-.library-title{
-    font-size: 20px;
-    color: white;
-    font-weight: bold;
-    flex-grow: 1;
+.library-sort-search-box{
+  margin-top: 10px;
 }
 
-.library-sort{
-    font-size: 11px;
-    color: #ccd0cf;
-    flex-grow: 1;
+.library-title-add-icon,
+.library-search-icon {
+  width: 100%;
 }
 
-hr{
-    margin: 0;
-    margin-bottom: 10px;
-    border: 1px solid #ccd0cf;
+.library-title-add-button,
+.library-search-button {
+  margin-left: 5px;
+  width: 16px;
+  height: 16px;
 }
 
-.library-box{ 
-    width: 18%;
-    background-color: #232323;
-    padding: 12px 12px 15px 12px;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    bottom: 84px;
+.library-title {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  flex-grow: 1;
 }
 
-.library-playlist-image{
-    width: 60px;
+.library-sort {
+  font-size: 11px;
+  color: #ccd0cf;
+  flex-grow: 1;
 }
 
-.current-enlarged-playing-song-image{
-    transform: rotate(40deg);
-    width: 100%;
+/*new
+.library-box {
+  width: 18%;
+  background-color: #283d59;
+  padding: 12px 12px 15px 12px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  bottom: 84px;
+  top: 0;
+}
+  */
+
+.library-box {
+  width: 18%;
+  background-color: #232323;
+  padding: 12px 12px 15px 12px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  bottom: 84px;
 }
 
-.current-enlarged-playing-song-box{
-    margin-top: 10px;
-    position: relative;
+.library-playlist-image {
+  width: 60px;
 }
 
-.current-playing-collapse-img{
-    width: 10%;
-    transform: rotate(90deg);
-    position: absolute;
-    top: 0;
-    right: 0;
+.current-enlarged-playing-song-image {
+  transform: rotate(40deg);
+  width: 100%;
 }
 
-.current-playing-collapse-box{
-    
-    
+.current-enlarged-playing-song-box {
+  margin-top: 10px;
+  position: relative;
+}
+
+.current-playing-collapse-img {
+  width: 100%;
+  transform: rotate(90deg);
+
+}
+
+.current-playing-collapse-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10%;
+}
+
+.library-title-expand-icon {
+  width: 25px;
+}
+
+.library-title-expand-button {
+  display: none;
+}
+
+/*modifying user section*/
+.username {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.user-profile-logo {
+  width: 50px;
+}
+
+.user-profile-box {
+  position: relative;
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.user-profile-online {
+  width: 38px;
+  position: absolute;
+  bottom: -10px;
+  right: -12px;
+}
+
+.user-profile-more-icon{
+  width: 16px;
+}
+
+.username-button{
+  flex: 1;
+  margin-left: 6%;
+}
+
+.user-details-box{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.user-premium-status{
+  font-size: 12px;
+  color: #ccd0cf;
 }

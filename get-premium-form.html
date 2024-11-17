@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="styles/header-section.css">
+    <link rel="stylesheet" href="styles/premium-page.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <script src="https://kit.fontawesome.com/361869a890.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="header-box">
+        <div class="header-logo-section">
+            <button class="header-logo-button">
+              <a href=""></a>
+              <img class="header-logo" src="resources/header-section/logo.png" alt="">
+              <div class="tooltip">Home</div>
+            </button>
+            <button>
+              <a href=""></a>
+              <p class="header-logo-name">Groovy</p>
+            </button>
+        </div>
+
+        <div class="header-right-section">
+            <div class="nav-box">
+                <a class="nav-home-link" href="">
+                    <button class="nav-home-button">Home</button>
+                </a>
+                <a class="nav-discover-link" href="">
+                    <button class="nav-discover-button">Discover</button>
+                </a>
+                <a class="nav-about-us-link" href="">
+                    <button class="nav-about-us-button">About Us</button>
+                </a>
+                <a class="nav-get-premium-link" href="">
+                    <button class="get-premium-button">
+                        Upgrade? 
+                    </button>
+                </a>
+            </div>
+            <div class="header-search-bar-section">
+                <input class="search-bar" type="text" placeholder="What's poppin">
+    
+                <button class="header-search-button">
+                  <a href=""></a>
+                  <img class="header-search-icon" src="resources/header-section/search.png" alt="">
+                  <div class="tooltip">Search</div>
+                </button>
+                
+                <button class="header-search-bar-idea-button">
+                  <a href=""></a>
+                  <img class="header-search-bar-idea-icon" id="idea-icon-b4-hover" src="resources/header-section/idea.png" alt="">
+                  <div class="tooltip">Ideas?</div>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!--
+    <div class="get-premium-img-box">
+        <img class="get-premium-img" src="resources/get-premium-page/concert-img.jpg" alt="">
+    </div>
+-->
+
+    <div class="content-container">
+        <div class="title-container">
+            <p class="title">Subscribe <span class="website-name">GROOVY</span> Right Now</p>
+        </div>
+        <div class="form-container">
+            <div class="form-left-container">
+                <form action="" method="/" class="left-form" id="form">
+                    <p class="personal-details-title">Personal Details</p>
+                    <div class="personal-details-name-row">
+                        <div class="form-control">
+                            <label for="first-name" class="personal-first-name-label inline-block-label">First Name:</label>
+                            <input type="text" id="first-name" placeholder="First Name">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error message</small>
+                        </div>
+
+                        <div class="form-control">
+                            <label for="last-name" class="inline-block-label">Last Name:</label>
+                            <input type="text" id="last-name" placeholder="Last Name">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error message</small>
+                        </div>
+                    </div>
+                        
+                    <div class="email-tel-box">
+                        <div class="email-box form-control">
+                            <label for="email" class="inline-block-label">Email</label>
+                            <input type="email" id="email" placeholder="abc123@gmail.com">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error message</small>
+                        </div>
+                        <div class="tel-box form-control">
+                            <label for="phone" class="inline-block-label">Phone No +(60):</label>
+                            <input type="tel" id="phone" placeholder="011 111 1111">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error message</small>
+                        </div>
+                    </div>
+
+                    <p class="billing-details-title">Billing Details</p>
+                    <div class="payment-method-box form-control">
+                        <label for="payment" class="inline-label">Payment Method</label>
+                        <select name="" id="payment" class="payment-method-selection">
+                            <option value="Visa">Visa</option>
+                            <option value="MasterCard">Master Card</option>
+                            <option value="giftcard">Gift Card</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-control">
+                        <label for="card-holder-first-name" class="inline-block-label">Card Holder First Name:</label>
+                        <input type="text" id="card-holder-first-name"  placeholder="First Name">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    
+                    <div class="form-control">
+                        <label for="card-holder-last-name" class="inline-block-label">Card Holder Last Name:</label>
+                        <input type="text" id="card-holder-last-name"  placeholder="Last Name">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+        
+                    <div class="form-control">
+                        <label for="acc-number" class="inline-block-label">Bank Card Number:</label>
+                        <input type="text" id="acc-number" 
+                            placeholder="Bank Card No."
+                        >
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+
+                    <div class="cvv-valid-date-box">
+                        <div class="form-control cvv-box">
+                            <label for="cvv-number" class="inline-block-label">CVV Number:</label>
+                            <input type="text" id="cvv-number" placeholder="CVV No.">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-control valid-date-box">
+                            <label for="valid-date" class="inline-block-label">Valid Thru:</label>
+                            <input type="month" id="valid-date" placeholder="YYYY/MM">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error message</small>
+                        </div>
+                    </div>
+
+                    <div class="tnc-content-box form-control">
+                        <input type="checkbox" id="tnc-checkbox">
+                        <label for="tnc-checkbox" class="inline-label">I've read through and agree with all the Terms & Conditions.</label>
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+
+                    <div class="submit-box">
+                        <input type="submit">
+                    </div>
+                </form>
+            </div>
+            <div class="form-right-container">
+                <div class="logo-box">
+                    <img class="logo-img" src="resources/header-section/logo.png" alt="">
+                    <p class="logo-name">Groovy</p>
+                </div>
+                <div class="subscription-plan-flexbox">
+                    <div class="subscription-plan-box" id="subscription-plan-box">
+                        <p class="subscription-plan-name" id="subscription-plan-name">Trial Plan <span id="recommended-word">(Recommended)</span></p>
+                        <p class="subscription-plan-price" id="subscription-plan-price">RM 15 <span class="subscription-plan-duration">/3 months</span></p>
+                        <ul class="subscription-plan-ul">
+                            <li class="subscription-plan-details" id="subscription-plan-details">Enjoy 3 months of trial with just 1 month price.</li>
+                            
+                        </ul>
+                        <div class="subscribe-button-box">
+                            <button class="subscribe-button" id="subscribe-button">
+                                Subscribe
+                            </button>
+                        </div>
+                        
+                    </div>
+                    <div class="subscription-plan-box">
+                        <p class="subscription-plan-name">Monthly Plan</p>
+                        <p class="subscription-plan-price">RM 15 <span class="subscription-plan-duration">/month</span></p>
+                        <ul>
+                            <li class="subscription-plan-details">Auto renew every month.</li>
+                        </ul>
+                        <div class="subscribe-button-box">
+                            <button class="subscribe-button">
+                                Subscribe
+                            </button>
+                        </div>
+                    </div>
+                    <div class="subscription-plan-box">
+                        <p class="subscription-plan-name">Family Plan</p>
+                        <p class="subscription-plan-price">RM 55 <span class="subscription-plan-duration">/month</span></p>
+                        <ul>
+                            <li class="subscription-plan-details">Family plan for up to 5 members.</li>
+                            
+                        </ul>
+                        <div class="subscribe-button-box">
+                            <button class="subscribe-button">
+                                Subscribe
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/get-premium-form.js"></script>
+</body>
+</html>

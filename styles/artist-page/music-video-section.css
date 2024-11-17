@@ -1,7 +1,8 @@
-.artist-profile-music-video-box{
+.artist-profile-music-video-box {
   margin-top: 100px;
 }
 
+/*
 .artist-profile-music-video-gridbox {
   width: 100%;
   display: grid;
@@ -9,6 +10,7 @@
   row-gap: 50px;
   column-gap: 20px;
 }
+  */
 
 .artist-profile-music-video-thumbnail {
   border-radius: 5px;
@@ -19,7 +21,7 @@
 }
 
 .artist-profile-music-video-thumbnail-box {
-  width: 95%;
+  width: 100%;
   height: 168px;
   position: relative;
 }
@@ -27,9 +29,10 @@
 .artist-profile-music-video-content-gridbox {
   display: grid;
   grid-template-columns: 35px 1fr;
+  width: 300px;
 }
 
-.artist-profile-music-video-thumbnail-flexbox{
+.artist-profile-music-video-thumbnail-flexbox {
   display: flex;
   flex-direction: column;
 }
@@ -46,7 +49,7 @@
   border-radius: 2px;
 }
 
-.artist-page-music-video-artist-logo{
+.artist-page-music-video-artist-logo {
   position: absolute;
   width: 40px;
   left: 8px;
@@ -75,16 +78,17 @@
   font-weight: bold;
 }
 
-.artist-profile-music-video-trend-increase-img, .artist-profile-music-video-trend-decrease-img{
+.artist-profile-music-video-trend-increase-img,
+.artist-profile-music-video-trend-decrease-img {
   width: 18px;
   margin-top: 10px;
 }
 
-.artist-profile-music-video-trend-increase-img{
+.artist-profile-music-video-trend-increase-img {
   transform: rotate(-90deg);
 }
 
-.artist-profile-music-video-trend-decrease-img{
+.artist-profile-music-video-trend-decrease-img {
   transform: rotate(90deg);
 }
 

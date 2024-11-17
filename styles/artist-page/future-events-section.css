@@ -5,6 +5,8 @@
 
 .artist-profile-future-events-flexbox{
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
 }
 
 .artist-profile-future-events-content-gridbox{

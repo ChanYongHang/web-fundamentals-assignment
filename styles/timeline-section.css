@@ -13,6 +13,7 @@
 .current-playing-artist, .timeline-time{
     color: #ccd0cf;
     font-size: 11px;
+    text-decoration: none;
 }
 
 .current-playing-heart{

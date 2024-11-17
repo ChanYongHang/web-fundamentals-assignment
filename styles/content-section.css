@@ -1,3 +1,12 @@
+/*
+.content-part {
+  background-color: #2b313f;
+  border-radius: 8px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+  */
+
 .content-part {
   background-color: #232323;
   border-radius: 8px;
@@ -6,3 +15,5 @@
   overflow: scroll;
   overflow-x: hidden;
 }
+
+

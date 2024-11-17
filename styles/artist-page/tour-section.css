@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 20px 1fr 20px 1fr;
     justify-items: center;
-    width: 30%;
+    width: 429px;
     row-gap: 16px;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .artist-profile-tour-countdown-time{
-    font-size: 76px;
+    font-size: 6em;
     font-weight: bold;
     color: #fdeb37;
 }
@@ -38,4 +38,10 @@
 
 .artist-profile-tour-box{
     margin-top: 100px;
+}
+
+.artist-profile-tour-details-link{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
 }

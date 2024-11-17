@@ -1,0 +1,378 @@
+body{
+    font-family: 'Roboto';
+    padding-top: 70px;
+    margin: 0;
+    padding-bottom: 200px;
+    background-image: url("/resources/get-premium-page/concert-img.jpg");
+    background-size: cover;
+}
+
+.form-container{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: auto; 
+    margin-left: auto; 
+    /*
+    grid-template-areas: 
+    "form-left-container form-right-container"
+    "tnc-container tnc-container";
+    */
+    margin-top: 40px;
+}
+
+.form-right-container{
+    /*
+    grid-area: form-right-container;
+    */
+    padding: 20px;
+    padding-bottom: 40px;
+    background-color: #334eac;
+    border-radius: 0 10px 10px 0;
+}
+
+.form-left-container{
+    /*
+    grid-area: form-left-container;
+    */
+    padding: 30px;
+    padding-bottom: 40px;
+    background-color: #fffcf5;
+    border-radius: 10px 0 0 10px;
+}
+
+.left-form{
+    height: 100%;
+}
+
+.subscription-plans-form{
+    height: 100%;
+    margin: 0;
+}
+
+.personal-details-box{
+    margin: 0;
+    padding-top: 0;
+}
+
+.billing-details-box{
+    margin: 0;
+}
+
+.personal-details-name-row{
+    width: 100%;
+}
+
+label{
+    font-size: 14px;
+}
+.inline-block-label{
+    width: 100%;
+    display: inline-block;
+}
+input[type=text], input[type=email], input[type=tel], input[type=month]{
+    width: 100%;
+    padding: 8px 20px;
+    margin-top: 8px;
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=tel]:focus{
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #77aaff;
+}
+
+.email-tel-box, .cvv-valid-date-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.email-box, .cvv-box{
+    margin-right: 12px;
+}
+
+.inline-label{
+    display: inline;
+}
+
+.payment-method-selection{
+    padding: 10px 12px;
+    flex: 1;
+    margin-left: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.payment-method-selection:focus{
+    border-bottom: 2px solid #334eac;
+    border-radius: 5px;
+}
+
+.payment-method-box{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.personal-details-title, .billing-details-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #334eac;
+    margin-bottom: 20px;
+}
+
+.billing-details-box{
+}
+
+#valid-date{
+    padding: 8px 20px;
+    margin-top: 8px;
+}
+
+.tnc-container{
+    grid-area: tnc-container;
+    margin-top: 20px;
+}
+
+.tnc-content-box{
+    width: 100%;
+}
+
+/*
+input[type=submit]{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #334eac;
+    background-color: transparent;
+    color: #334eac;
+    transition: width 1s;
+}
+
+input[type=submit]:hover{
+    background-color: #334eac;
+    color: #fff9f0;
+    width: 30%;
+}
+    */
+
+.submit-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.plan-details-box{
+    display: inline;
+}
+
+p{
+    margin: 0;
+}
+
+.get-premium-img-box{
+    width: 100%;
+    height: 100%;
+}
+
+.get-premium-img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+}
+
+.website-name{
+    color: 	#81ceeb;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff9f0;
+}
+
+.title-container{
+    display: flex;
+    justify-content: center;
+}
+
+.content-container{
+}
+
+/*premium payment page, logo inside the right div box*/
+.logo-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    height: 13%;
+}
+
+.logo-name{
+    font-size: 16px;
+    color: #fff9f0;
+    font-weight: bold;
+}
+
+.logo-img{
+    width: 70px;
+}
+
+.subscription-plan-flexbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 87%;
+}
+ 
+
+.subscription-plan-name{
+    color: #fff9f0;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.subscription-plan-price{
+    font-size: 40px;
+    color: #fff9f0;
+    font-weight: bold;
+}
+
+.subscription-plan-duration{
+    font-size: 18px;
+}
+
+.subscription-plan-ul{
+    padding-left: 30px;
+}
+
+.subscription-plan-details{
+    color: #fff9f0;
+    font-size: 13px;
+    list-style-type: square;
+    margin-bottom: 8px;
+}
+
+.subscription-plan-box{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.subscribe-button, input[type=submit]{
+    width: 65%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    color: #334eac;
+    font-weight: bold;
+    transition: width 1s;
+    cursor: pointer;
+    background-color: #fff9f0;
+}
+
+.subscribe-button:hover, input[type=submit]:hover{
+    width: 80%;
+}
+
+input[type=submit]{
+    color: #fff9f0;
+    background-color: #334eac;
+}
+
+.subscribe-button-box{
+    display: flex;
+    justify-content: center;
+}
+
+#subscription-plan-box{
+    background-color: #fff9f0;
+    border-radius: 10px;
+}
+
+#subscribe-button{
+    background-color: #334eac;
+    color: #fff9f0;
+}
+
+#subscription-plan-details{
+    color: #334eac;
+}
+
+#subscription-plan-name{
+    color: #334eac;
+}
+
+#subscription-plan-price{
+    color: #334eac;
+}
+
+#recommended-word{
+    font-size: 12px;
+}
+
+/*form control css for js purposes*/
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control i{
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    visibility: hidden;
+}
+
+
+.form-control small{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.form-control.success input{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #2ecc71;
+}
+
+.form-control.error input{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #e74c3c;
+}
+
+.form-control.success i.fa-check-circle{
+    visibility: visible;
+    color: #2ecc71;
+}
+
+.form-control.error i.fa-exclamation-circle{
+    visibility: visible;
+    color: #e74c3c;
+}
+
+.form-control.error small{
+    visibility: visible;
+    color: #e74c3c;
+}
+
+   
